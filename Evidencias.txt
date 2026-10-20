@@ -1,0 +1,49 @@
+=== Ejercicio 1. Viaje en taxi === 
+1.Ingrese la cantidad de kilómetros recorridos: 5
+El importe del viaje es: 80.00 
+
+2.Ingrese la cantidad de kilómetros recorridos: 20
+El importe del viaje es: 215.00
+
+3.Ingrese la cantidad de kilómetros recorridos: 21
+El importe del viaje es: 201.60
+
+4.Ingrese la cantidad de kilómetros recorridos: 30
+El importe del viaje es: 274.50
+
+=== Ejercicio 2. Comisión de ventas === 
+1.Ingrese el monto de ventas del mes: 5000
+Comisión: 250.00
+Bono: 0.00
+Total a pagar: 250.00
+
+2.Ingrese el monto de ventas del mes: 10000
+Comisión: 500.00
+Bono: 0.00
+Total a pagar: 500.00
+
+3.Ingrese el monto de ventas del mes: 50000
+Comisión: 4000.00
+Bono: 0.00
+Total a pagar: 4000.00
+
+4.ngrese el monto de ventas del mes: 50001
+Comisión: 4000.08
+Bono: 1000.00
+Total a pagar: 5000.08
+
+=== Ejercicio 3. Multa de biblioteca === 
+1.Ingrese la cantidad de días de retraso: 0
+La multa es: $0
+
+2.Ingrese la cantidad de días de retraso: 10
+La multa es: $50
+
+3.Ingrese la cantidad de días de retraso: 11
+La multa es: $60
+
+4.Ingrese la cantidad de días de retraso: 25
+La multa es: $200
+
+5.Ingrese la cantidad de días de retraso: 40
+La multa es: $200
