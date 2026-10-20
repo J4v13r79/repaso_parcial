@@ -17,7 +17,9 @@ def ejecutarEjercicio2():
     mostrarPago(comision, bono, total)
 
 def ejecutarEjercicio3(): 
-    print("Ejercicio 3 pendiente.")
+    dias_retraso = leerDias()
+    multa = calcularMulta(dias_retraso)
+    mostrarMulta(multa)
 
 def mostrarMenu():
     print()
