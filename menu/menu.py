@@ -1,6 +1,6 @@
 from Ejercicios.ejercicio1_taxi import leerKilometros, calcularImporte, mostrarImporte
-from Ejercicios.ejercicio2_comision import 
-from Ejercicios.ejercicio3_biblioteca import 
+from Ejercicios.ejercicio2_comision import leerVentas, calcularComision, calcularBono, mostrarPago
+from Ejercicios.ejercicio3_biblioteca import leerDias, calcularMulta, mostrarMulta 
 
 
 def ejecutarEjercicio1():
@@ -10,7 +10,11 @@ def ejecutarEjercicio1():
 
  
 def ejecutarEjercicio2(): 
-    print("Ejercicio 2 pendiente.")
+    ventas = leerVentas()
+    comision = calcularComision(ventas)
+    bono = calcularBono(ventas)
+    total = comision + bono
+    mostrarPago(comision, bono, total)
 
 def ejecutarEjercicio3(): 
     print("Ejercicio 3 pendiente.")
